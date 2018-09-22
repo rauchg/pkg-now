@@ -1,0 +1,14 @@
+{
+  "name": "pkg-now",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "pkg-now": "index.js"
+  },
+  "devDependencies": {
+    "pkg": "latest"
+  },
+  "scripts": {
+    "build": "pkg -t node8-alpine,node8-linux,node8-mac,node8-win ."
+  }
+}
